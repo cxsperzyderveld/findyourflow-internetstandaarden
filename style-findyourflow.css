@@ -1,0 +1,274 @@
+@font-face {
+    font-family: Russo One;
+    src: url(fonts/RussoOne-Regular.ttf);
+}
+
+body {
+    background-color: #efefef;
+    margin: 0; /* ruimte tussen de header */
+    width: 100%;
+}
+
+header {
+    position: sticky;
+}
+
+header li {
+    color: #FFFFFF;
+}
+
+.kopjes {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+nav a {
+    color: #efefef;
+    font-weight: 500;
+}
+
+a:hover {
+    font-size: 1.1rem;
+    transition: 1s;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+main {
+    margin-top: 0%;
+    margin-bottom: 7%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+section p {
+    font-family: "Avenir";
+    font-weight: 200;
+    border-radius: 2em;
+    text-align: left;
+}
+
+section ul {
+    display: flex;
+    direction: column;
+    justify-content: space-between;
+    gap: 10em;
+    flex-grow: 50%;
+}
+
+.tekstmidden {
+    font-family: "Avenir";
+    font-weight: 200;
+    border-radius: 2em;
+    text-align: center;
+}
+
+section h2 {
+    font-family: "Avenir";
+    border-radius: 90%;
+    border-color: #4870f3;
+}
+
+section img {
+    display: flex;
+    width: 20em;
+    flex-direction: column;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color:#FFFFFF; 
+    background-image: linear-gradient(to top, #4870f3, #ada3ce);
+    border-image: linear-gradient(to bottom, #4870f3, #ada3ce, #4870f3);
+    border-width: 2em;
+    border-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: none;
+    border-left-style: none;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color:#FFFFFF; 
+    width: 100%;
+    margin: 0em;
+}
+
+nav li:nth-child(n+2) {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-self: center;
+    margin: 0em;
+}
+
+.kopjes img {
+    width: 8em;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left:0%;
+    padding-right: 0%;
+    align-self: left;
+}
+
+nav li:first-of-type {
+    padding-left:0%;
+    background-color: none;
+    justify-content: center;
+    align-self: flex-start;
+    scale:100%;
+}
+
+header a {
+    font-family: "Avenir";
+    font-weight: 1000;
+    text-decoration: none;
+}
+
+.hoofdtext {
+    text-align: center;
+    max-width: 50em;
+    background-color: #000000;
+    background-image: linear-gradient(#000000, #efefef);
+}
+
+h1 {
+    font-family: "Russo One";
+    text-align: left;
+    font-size: 4rem;
+}
+
+.homepaginatitel {
+    font-family: "Russo One";
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+.thumbnails p {
+    font-family: "Avenir";
+    font-size: 0,001rem;
+    padding-left: 0,2rem;
+}
+
+.thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+    flex-grow: 50%;
+    min-height: 0px;
+    list-style-type: none;
+}
+
+.thumbnails img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.thumbnails li {
+    width: 30%;
+    padding: 2%, auto;
+}
+
+.thumbnails h2 {
+    font-family: "Avenir";
+    border-radius: 90%;
+    border-color: #4870f3;
+}
+
+.thumbnails h3 {
+    font-family: "Avenir";
+    font-weight: 900;
+    padding-left: 1em;   
+    padding-right: 0em;
+    border-radius: 2em;
+    border-image: black;
+    border-style: solid;
+    width: 80%;
+}
+
+.thumbnails img:hover {
+    transform: scale(104%);
+    transition: 1s;
+}
+
+.shop-container p {
+    font-family: "Avenir";
+    font-size: 0,001rem;
+    padding-left: 0,2rem;
+}
+
+.shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+    flex-grow: 50%;
+    min-height: 0px;
+    list-style-type: none;
+}
+
+.shop-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    padding-right: 3em;
+}
+
+.shop-container img:hover {
+    transform: scale(110%);
+    transition: 1s;
+}
+
+.shop-container li {
+    width: 30%;
+    padding: 2%, auto;
+}
+
+.shop-container h2 {
+    font-family: "Avenir";
+    border-radius: 90%;
+    border-color: #4870f3;
+}
+
+.shop-container h3 {
+    font-family: "Avenir";
+    font-weight: 900;
+    padding-left: 1em;   
+    padding-right: 0em;
+    border-radius: 2em;
+    border-image: black;
+    border-style: solid;
+    width: 80%;
+}
+
+footer {
+    color:#FFFFFF; 
+    background-image: linear-gradient(to top, #4870f3, #ada3ce);
+    border-image: linear-gradient(to bottom, #4870f3, #ada3ce, #4870f3);
+    border-width: 2em;
+    border-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: none;
+    border-left-style: none;
+    width: 100%;
+}
